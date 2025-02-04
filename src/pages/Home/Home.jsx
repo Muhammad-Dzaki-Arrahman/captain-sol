@@ -19,7 +19,7 @@ const Home = () => {
 
         <TopPartners />
         <WhyChooseUs />
-        <Sales />
+        {/* <Sales /> */}
 
         <div className="area-bg">
           <Roadmap />

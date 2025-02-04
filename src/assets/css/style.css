@@ -456,6 +456,10 @@ label {
     color: #007ff4;
   }
 }
+.menu-wrap .logo img {
+  height: fit-content;
+  width: fit-content;
+}
 .header-action > ul > li:first-child {
   margin-left: 0;
   padding-left: 0;
@@ -924,6 +928,8 @@ label {
   top: 28%;
   left: -3%;
   animation: leftToRight 5s infinite linear;
+  height: 169px;
+  width: 169px;
 }
 .banner-shape-wrap img.img-two {
   left: auto;
@@ -1487,6 +1493,13 @@ ul {
   display: inline-block;
   padding: 0 15px;
   margin-bottom: 25px;
+  .sub-title-2 {
+    display: inline-flex;
+    color: #00c2f2;
+  }
+}
+.title-why-choose-us span {
+  color: #00c2f2;
 }
 .section-title .sub-title::after,
 .section-title .sub-title::before {
@@ -3336,12 +3349,9 @@ ul {
 .footer-widget {
   margin-bottom: 30px;
   img {
-    height: 83px;
-    width: 120px;
+    height: fit-content;
+    width: fit-content;
   }
-}
-.footer-widget img {
-  width: fit-content;
 }
 .footer-widget .f-logo {
   margin-bottom: 20px;

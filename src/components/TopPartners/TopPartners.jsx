@@ -4,21 +4,13 @@ const TopPartners = () => {
   const partners_list = [
     { src: "/img/partnership/certik.png", title: "CertiK" },
     { src: "/img/partnership/slowmist.png", title: "SlowMist" },
-    { src: "/img/partnership/ethereum-foundation.png", title: "Ethereum Foundation" },
     {
       src: "/img/partnership/binance.png",
       title: "Binance Smart Chain (BSC)",
     },
     { src: "/img/partnership/solana.png", title: "Solana" },
-    { src: "/img/partnership/github.png", title: "Github" },
-    {
-      src: "/img/partnership/gcb.png",
-      title: "Google Cloud Blockchain",
-    },
-    { src: "/img/partnership/trustpilot.png", title: "Trustpilot" },
     { src: "/img/partnership/aave.png", title: "Aave" },
     { src: "/img/partnership/polygon.png", title: "Polygon" },
-    { src: "/img/partnership/hyperledger.png", title: "Hyperledger" },
     { src: "/img/partnership/quantstamp.png", title: "Quantstamp" },
     { src: "/img/partnership/openzeppelin.png", title: "OpenZeppelin" },
   ];

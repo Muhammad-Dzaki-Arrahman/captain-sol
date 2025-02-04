@@ -80,13 +80,13 @@ const HeaderOne = () => {
                   <div className="logo">
                     <a href="#header">
                       <img
-                        src="/img/logo/img_1.png"
+                        src="/img/logo/img_7.png"
                         alt="BigTech Logo"
                         className="audit-logo"
                       />
-                      <h4>
-                        Audit <span>AI</span>
-                      </h4>
+                      {/* <h4>
+                        AUDIT <span>AI</span>
+                      </h4> */}
                     </a>
                   </div>
 
@@ -113,15 +113,6 @@ const HeaderOne = () => {
                           onClick={() => handleClickScroll("about")}
                         >
                           About us
-                        </Link>
-                      </li>
-                      <li className={isActiveLink("#sales")}>
-                        <Link
-                          to="#sales"
-                          className={"section-link"}
-                          onClick={() => handleClickScroll("sales")}
-                        >
-                          Sales
                         </Link>
                       </li>
                       <li className={isActiveLink("#roadmap")}>
@@ -210,15 +201,6 @@ const HeaderOne = () => {
                           onClick={() => handleClickScroll("about")}
                         >
                           About us
-                        </Link>
-                      </li>
-                      <li className={isActiveLink("#sales")}>
-                        <Link
-                          to="#sales"
-                          className={"section-link"}
-                          onClick={() => handleClickScroll("sales")}
-                        >
-                          Sales
                         </Link>
                       </li>
                       <li className={isActiveLink("#roadmap")}>

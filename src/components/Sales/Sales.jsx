@@ -5,12 +5,11 @@ import SalesTabContent from "./SalesTabContent";
 
 const Sales = () => {
   const chart_info_list = [
-    "Contingency: 70%",
+    "Contingency: 40%",
     "Business Development: 10%",
     "Investor: 30%",
-    "Poland",
+    "International: 10%",
     "Legal & Regulation:10%",
-    "Czech Republic",
   ];
 
   return (

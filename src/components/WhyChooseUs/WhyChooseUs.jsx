@@ -128,9 +128,11 @@ const WhyChooseUs = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6">
             <div className="section-title text-center mb-50">
-              <span className="sub-title">why Audit AI ? </span>
-              <h2 className="title">
-                Why choose <span>Audit AI</span>
+              <span className="sub-title">
+                why AUDIT<span className="sub-title-2">AI</span> ?{" "}
+              </span>
+              <h2 className="title-why-choose-us">
+                Why choose <span> AUDITAI</span>
               </h2>
             </div>
           </div>

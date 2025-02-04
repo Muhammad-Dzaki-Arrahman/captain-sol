@@ -9,7 +9,7 @@ const Banner = (props) => {
   return (
     <section className="banner-area banner-bg">
       <div className="banner-shape-wrap">
-        <img src="/img/banner/img_1.svg" alt="" className="img-one" />
+        <img src="/img/banner/img_4.svg" alt="" className="img-one" />
         <img src="/img/banner/img_2.svg" alt="" className="img-two" />
         <img src="/img/banner/img_3.svg" alt="" className="img-three" />
       </div>

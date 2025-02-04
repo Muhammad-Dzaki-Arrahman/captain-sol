@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../../src/assets/img/logo/logo.png";
 import { scrollToTop } from "../../lib/helpers";
 
 const FooterOne = () => {
@@ -25,7 +24,7 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <a className="f-logo" href="#">
-                    <img src="/img/logo/img_4.png" alt="BigTech Logo" />
+                    <img src="/img/logo/img_6.png" alt="BigTech Logo" />
                   </a>
                   <div className="footer-content">
                     <p>
@@ -62,9 +61,6 @@ const FooterOne = () => {
                       </li>
                       <li>
                         <a href="#about">About Us</a>
-                      </li>
-                      <li>
-                        <a href="#sales">Sales</a>
                       </li>
                       <li>
                         <a href="#roadmap">Roadmaps</a>
