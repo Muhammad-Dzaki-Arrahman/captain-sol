@@ -23,9 +23,13 @@ const FooterOne = () => {
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".2s"
                 >
-                  <a className="f-logo" href="#">
-                    {/* <img src="/img/logo/img_6.png" alt="BigTech Logo" /> */}
-                    <h4>CAPTAIN SOLANA</h4>
+                  <a href="#">
+                    <img
+                      src="/img/logo/csn.png"
+                      alt="BigTech Logo"
+                      className="f-logo"
+                    />
+                    {/* <h4>CAPTAIN SOLANA</h4> */}
                   </a>
                   <div className="footer-content">
                     <p>
@@ -36,13 +40,22 @@ const FooterOne = () => {
                     </p>
                     <ul className="footer-social">
                       <li>
-                        <a href="https://web.telegram.org/">
+                        <a href="https://web.telegram.org/" target="_blank">
                           <i className="fab fa-telegram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://x.com/">
+                        <a href="https://x.com/" target="_blank">
                           <i className="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://dexscreener.com/" target="_blank">
+                          <img
+                            src="/img/partnership/dex.png"
+                            alt="dex screener"
+                            className="dex-screener"
+                          />
                         </a>
                       </li>
                     </ul>
@@ -82,10 +95,19 @@ const FooterOne = () => {
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="/">Telegram</Link>
+                        <a href="https://web.telegram.org/" target="_blank">
+                          Telegram
+                        </a>
                       </li>
                       <li>
-                        <Link to="/">Twitter</Link>
+                        <a href="https://x.com/" target="_blank">
+                          Twitter
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://dexscreener.com/" target="_blank">
+                          DEX Screener
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -108,10 +130,10 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2025. All Rights Reserved Bigtech</p>
+                  <p>Copyright &copy; 2025. All Rights Reserved.</p>
                 </div>
               </div>
-              <div className="col-lg-6 d-none d-sm-block">
+              {/* <div className="col-lg-6 d-none d-sm-block">
                 <div className="footer-menu">
                   <ul>
                     <li>
@@ -122,7 +144,7 @@ const FooterOne = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,17 +1,49 @@
 import React from "react";
-import img01 from "../../assets/img/images/about_img01.png";
-import img02 from "../../assets/img/images/about_img02.png";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const WhoWeAre = (props) => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    const contactAddress = "YOUR_CONTACT_ADDRESS_HERE"; // Ganti dengan alamat yang ingin disalin
+    navigator.clipboard
+      .writeText(contactAddress)
+      .then(() => {
+        setCopied(true);
+        toast.success("🚀 Contact Address Copied!", {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+      })
+      .catch((err) => {
+        console.error("Failed to copy:", err);
+        toast.error("❌ Failed to copy. Try again!");
+      });
+  };
   return (
     <section id="about" className="about-area pt-130 pb-130">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-img wow fadeInLeft" data-wow-delay=".2s">
-              <img src="/img/whoarewe/img_2.png" alt="" className="img-one" />
-              <img src="/img/whoarewe/img_1.svg" alt="" className="img-two" />
+              <img
+                src="/img/whoarewe/img_1.png"
+                alt="csn"
+                className="img-one"
+              />
+              {/* <img
+                src="/img/whoarewe/img_1.svg"
+                alt="csn"
+                className="img-two"
+              /> */}
             </div>
           </div>
           <div className="col-lg-6">
@@ -26,9 +58,9 @@ const WhoWeAre = (props) => {
                 Meme coins are the gateway for new users, and Captain SOL is
                 here to unite the strongest holders in the game.
               </p>
-              <Link to="/" className="btn">
-                Copy Contact Adress
-              </Link>
+              <button onClick={handleCopy} className="btn">
+                {copied ? "✅ Copied!" : "Copy Contact Address"}
+              </button>
             </div>
           </div>
         </div>

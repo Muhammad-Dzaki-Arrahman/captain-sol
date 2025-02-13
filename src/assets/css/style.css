@@ -457,8 +457,8 @@ label {
   }
 }
 .menu-wrap .logo img {
-  height: fit-content;
-  width: fit-content;
+  height: 40px;
+  width: 40px;
 }
 .header-action > ul > li:first-child {
   margin-left: 0;
@@ -883,6 +883,10 @@ label {
   background: #00c4f4;
   color: #fff;
 }
+.mobile-menu .social-links li .dex-screener {
+  width: 25px;
+  height: 25px;
+}
 .menu-area .mobile-nav-toggler {
   position: relative;
   float: right;
@@ -896,7 +900,7 @@ label {
 
 /* 4. Banner */
 .banner-bg {
-  background-image: url(../../../public/img/banner/img_1.jpg);
+  background-image: url(../../../public/img/banner/csn2.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -2252,7 +2256,7 @@ ul {
 /* 12. Document */
 .area-bg {
   position: relative;
-  background-image: url(../../../public/img/bg/bg_3.jpg);
+  background-image: url(../../../public/img/banner/csn.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -3352,8 +3356,8 @@ ul {
 .footer-widget {
   margin-bottom: 30px;
   img {
-    height: fit-content;
-    width: fit-content;
+    height: 60px;
+    width: 60px;
   }
 }
 .footer-widget .f-logo {
@@ -3389,6 +3393,10 @@ ul {
 .footer-content .footer-social li a:hover {
   background: #00c4f4;
   border-color: #00c4f4;
+}
+.footer-content .footer-social li .dex-screener {
+  width: 25px;
+  height: 25px;
 }
 .footer-widget .fw-title {
   font-size: 18px;

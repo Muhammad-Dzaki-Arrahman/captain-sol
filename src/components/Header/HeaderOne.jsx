@@ -79,13 +79,13 @@ const HeaderOne = () => {
                 <nav className={"menu-nav"}>
                   <div className="logo">
                     <a href="#header">
-                      {/* <img
-                        src="/img/logo/img_7.png"
+                      <img
+                        src="/img/logo/csn.png"
                         alt="BigTech Logo"
                         className="audit-logo"
-                      /> */}
+                      />
                       <h4>
-                        CAPTAIN <span className="ml-5">SOLANA</span>
+                        <span className="ml-5">CSN</span>
                       </h4>
                     </a>
                   </div>
@@ -143,6 +143,15 @@ const HeaderOne = () => {
                               rel="noopener noreferrer"
                             >
                               Twitter
+                            </a>
+                          </li>
+                          <li className={cn(pathname == "#" && "active")}>
+                            <a
+                              href="https://dexscreener.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Dex Screener
                             </a>
                           </li>
                         </ul>
@@ -225,6 +234,15 @@ const HeaderOne = () => {
                       <li>
                         <a href="https://x.com/">
                           <i className="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://dexscreener.com/">
+                          <img
+                            src="img/partnership/dex.png"
+                            alt="DEX Screener"
+                            className="dex-screener"
+                          />
                         </a>
                       </li>
                     </ul>

@@ -7,15 +7,21 @@ const Banner = (props) => {
     <section className="banner-area banner-bg">
       <div className="banner-shape-wrap">
         <img src="/img/banner/img_4.svg" alt="" className="img-one" />
-        <img src="/img/banner/img_2.svg" alt="" className="img-two" />
-        <img src="/img/banner/img_3.svg" alt="" className="img-three" />
+        {/* <img src="/img/banner/img_2.svg" alt="" className="img-two" /> */}
+        <img
+          src="/img/banner/img_1.png"
+          alt=""
+          className="img-three"
+          width={350}
+          height={350}
+        />
       </div>
 
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="banner-content text-center">
-              <img src="/img/bg_1.jpg" alt="" />
+              {/* <img src="/img/banner/csn2.jpeg" alt="" /> */}
               <h2 className="title">
                 Captain
                 <span className="ml-5">Solana</span>
