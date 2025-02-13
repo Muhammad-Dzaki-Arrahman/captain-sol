@@ -18,15 +18,15 @@ const Home = () => {
         <WhoWeAre />
 
         <TopPartners />
-        <WhyChooseUs />
+        {/* <WhyChooseUs /> */}
         {/* <Sales /> */}
 
         <div className="area-bg">
           <Roadmap />
-          <WhitePaper />
+          {/* <WhitePaper /> */}
         </div>
 
-        <TeamOne />
+        {/* <TeamOne /> */}
         {/* <ContactOne /> */}
       </main>
     </LayoutOne>

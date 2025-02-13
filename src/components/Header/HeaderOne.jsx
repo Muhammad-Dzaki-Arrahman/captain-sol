@@ -79,14 +79,14 @@ const HeaderOne = () => {
                 <nav className={"menu-nav"}>
                   <div className="logo">
                     <a href="#header">
-                      <img
+                      {/* <img
                         src="/img/logo/img_7.png"
                         alt="BigTech Logo"
                         className="audit-logo"
-                      />
-                      {/* <h4>
-                        AUDIT <span>AI</span>
-                      </h4> */}
+                      /> */}
+                      <h4>
+                        CAPTAIN <span className="ml-5">SOLANA</span>
+                      </h4>
                     </a>
                   </div>
 

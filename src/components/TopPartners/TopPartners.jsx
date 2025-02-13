@@ -2,17 +2,13 @@ import React from "react";
 
 const TopPartners = () => {
   const partners_list = [
-    { src: "/img/partnership/certik.png", title: "CertiK" },
-    { src: "/img/partnership/slowmist.png", title: "SlowMist" },
+    { src: "/img/partnership/solana.png", title: "Solana" },
+    { src: "/img/partnership/dexpartner.png", title: "DEX Screener" },
+    { src: "/img/partnership/polygon.png", title: "Polygon" },
     {
       src: "/img/partnership/binance.png",
       title: "Binance Smart Chain (BSC)",
     },
-    { src: "/img/partnership/solana.png", title: "Solana" },
-    { src: "/img/partnership/aave.png", title: "Aave" },
-    { src: "/img/partnership/polygon.png", title: "Polygon" },
-    { src: "/img/partnership/quantstamp.png", title: "Quantstamp" },
-    { src: "/img/partnership/openzeppelin.png", title: "OpenZeppelin" },
   ];
 
   return (
@@ -21,7 +17,7 @@ const TopPartners = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center mb-10">
-              <span className="sub-title">Our top partner</span>
+              <span className="sub-title">Our Partners</span>
             </div>
           </div>
         </div>

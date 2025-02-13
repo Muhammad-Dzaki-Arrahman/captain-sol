@@ -19,18 +19,15 @@ const WhoWeAre = (props) => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  The World’s <span>1st AI-Powered</span> Smart Contract
-                  Auditing Platform for Secure and Transparent Blockchain
-                  Projects.
+                  Captain SOL was born to lead the charge on Solana.
                 </h2>
               </div>
               <p>
-                The World’s 1st AI-Powered Smart Contract Auditing Platform
-                ensuring security, transparency, and trust in blockchain
-                projects.
+                Meme coins are the gateway for new users, and Captain SOL is
+                here to unite the strongest holders in the game.
               </p>
               <Link to="/" className="btn">
-                Purchase Tokens
+                Copy Contact Adress
               </Link>
             </div>
           </div>

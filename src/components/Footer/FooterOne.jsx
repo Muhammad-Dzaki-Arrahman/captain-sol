@@ -24,14 +24,15 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <a className="f-logo" href="#">
-                    <img src="/img/logo/img_6.png" alt="BigTech Logo" />
+                    {/* <img src="/img/logo/img_6.png" alt="BigTech Logo" /> */}
+                    <h4>CAPTAIN SOLANA</h4>
                   </a>
                   <div className="footer-content">
                     <p>
-                      A new way to audit smart contracts with ease, accuracy,
-                      and 100% security. Ensure transparency, reliability, and
-                      trust in your blockchain projects with AI-powered
-                      auditing.
+                      Fast, accurate, and 100% secure. Captain Solana ensures
+                      transparency, reliability, and trust in every blockchain
+                      mission with AI-driven auditing. Join the movement and
+                      secure the future!
                     </p>
                     <ul className="footer-social">
                       <li>

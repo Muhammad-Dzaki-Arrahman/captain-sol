@@ -25,16 +25,29 @@ const CountDownOne = () => {
       return (
         <>
           <div className="time-count day">
-            <span>{days < 10 ? "0" + days : days}</span>Days
+            <a href="https://dexscreener.com/" target="_blank">
+              <img
+                src="/img/partnership/dex.png"
+                alt=""
+                width={40}
+                height={40}
+              />
+            </a>
           </div>
           <div className="time-count hour">
-            <span>{hours < 10 ? "0" + hours : hours}</span>hour
+            <a href="https://x.com/" target="_blank">
+              <img src="/img/partnership/x.png" alt="" width={40} height={40} />
+            </a>
           </div>
           <div className="time-count min">
-            <span>{minutes < 10 ? "0" + minutes : minutes}</span>minute
-          </div>
-          <div className="time-count sec">
-            <span>{seconds < 10 ? "0" + seconds : seconds}</span>second
+            <a href="https://web.telegram.org/" target="_blank">
+              <img
+                src="/img/partnership/telegram.png"
+                alt=""
+                width={40}
+                height={40}
+              />
+            </a>
           </div>
         </>
       );

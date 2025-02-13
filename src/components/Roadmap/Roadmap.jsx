@@ -6,56 +6,56 @@ const Roadmap = () => {
   const roadmap_items = [
     {
       roadmapTitle: "Q1 2025",
-      title: "Concept & Planning",
+      title: "Planning & Research",
       info: [
-        "Define AI Audit framework",
-        "Research compliance & regulations",
+        "Define Captain Solana’s vision",
+        "Community building & outreach",
         "Develop initial whitepaper",
       ],
     },
     {
       roadmapTitle: "Q2 2025",
-      title: "Prototype & Research",
+      title: "Prototype Development",
       info: [
-        "Develop AI model for audit automation",
-        "Proof of Concept (PoC) for data integrity checks",
-        "Gather feedback from initial testers",
+        "Launch early meme campaigns",
+        "Test tokenomics model",
+        "Engage first adopters",
       ],
     },
     {
       roadmapTitle: "Q3 2025",
-      title: "Beta Testing",
+      title: "Beta Phase",
       info: [
-        "Launch beta version for selected partners",
-        "Implement AI bias detection system",
-        "Refine security & privacy protocols",
+        "Token launch & airdrops",
+        "Community-driven initiatives",
+        "Early exchange listings",
       ],
     },
     {
       roadmapTitle: "Q4 2025",
-      title: "Public Testnet & Token Integration",
+      title: "Ecosystem Growth",
       info: [
-        "Launch public testnet for real-world audits",
-        "Introduce incentive mechanisms (staking/rewards)",
-        "Tokenized audit validation system",
+        "Partnerships with Solana projects",
+        "Staking & rewards system",
+        "Captain Solana NFTs",
       ],
     },
     {
       roadmapTitle: "Q1 2026",
-      title: "Mainnet Launch",
+      title: "Mainnet Expansion",
       info: [
-        "AI-powered audit system goes live",
-        "Partnerships with regulatory bodies",
-        "First batch of real-world audits",
+        "Strengthen liquidity & utility",
+        "Major CEX listings",
+        "First governance proposals",
       ],
     },
     {
       roadmapTitle: "Q2 2026",
-      title: "Expansion & Scaling",
+      title: "Mass Adoption",
       info: [
-        "Multi-industry adoption (finance, healthcare, Web3)",
-        "Launch of AI Audit Academy",
-        "Further AI improvements for fraud detection",
+        "Expand into GameFi & Web3",
+        "Cross-chain integrations",
+        "Merch & real-world branding",
       ],
     },
   ];
@@ -70,8 +70,7 @@ const Roadmap = () => {
             <div className="section-title text-center mb-60">
               <span className="sub-title">Our Roadmap</span>
               <h2 className="title">
-                AI-Powered Security Strategy and Smart Contract
-                <span>Audit Plan</span>
+                <span>Captain Solana Plan</span>
               </h2>
             </div>
           </div>

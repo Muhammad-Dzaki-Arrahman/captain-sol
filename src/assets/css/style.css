@@ -896,7 +896,7 @@ label {
 
 /* 4. Banner */
 .banner-bg {
-  background-image: url(../../../public/img/bg/bg_1.jpg);
+  background-image: url(../../../public/img/banner/img_1.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -954,7 +954,9 @@ label {
 }
 .banner-content .title span {
   color: #00c4f4;
+  display: inline;
 }
+
 .banner-progress-wrap ul {
   display: flex;
   align-items: center;
@@ -1537,6 +1539,7 @@ ul {
 .partner-wrap ul {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .partner-wrap ul li {

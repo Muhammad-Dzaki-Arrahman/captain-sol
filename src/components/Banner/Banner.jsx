@@ -1,9 +1,6 @@
 import React from "react";
-import shape01 from "../../assets/img/banner/banner_shape01.png";
-import shape02 from "../../assets/img/banner/banner_shape02.png";
-import shape03 from "../../assets/img/banner/banner_shape03.png";
-import fireIcon from "../../assets/img/icon/fire.png";
 import CountDownOne from "../CountDown/CountDownOne";
+import FindusOn from "../CountDown/FindusOn";
 
 const Banner = (props) => {
   return (
@@ -20,11 +17,11 @@ const Banner = (props) => {
             <div className="banner-content text-center">
               <img src="/img/bg_1.jpg" alt="" />
               <h2 className="title">
-                Join the Future of AI-Powered Smart Contract Auditing for{" "}
-                <span>Secure and Transparent</span> Blockchain Projects
+                Captain
+                <span className="ml-5">Solana</span>
               </h2>
             </div>
-            <div className="banner-progress-wrap">
+            {/* <div className="banner-progress-wrap">
               <ul>
                 <li>Pre Sell</li>
                 <li>Soft Cap</li>
@@ -43,15 +40,16 @@ const Banner = (props) => {
               <h4 className="title">
                 65% target raised <span>1 ETH = $1000 = 2877.84 AUD</span>
               </h4>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-xl-10">
             <div className="banner-countdown-wrap text-center">
-              <h2 className="title">AUD Will Start In..</h2>
+              <h2 className="title">ON</h2>
 
               <CountDownOne />
+              {/* <FindusOn /> */}
             </div>
           </div>
         </div>
