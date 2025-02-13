@@ -79,9 +79,6 @@ const FooterOne = () => {
                       <li>
                         <a href="#roadmap">Roadmaps</a>
                       </li>
-                      <li>
-                        <a href="#team">Teams</a>
-                      </li>
                     </ul>
                   </div>
                 </div>
